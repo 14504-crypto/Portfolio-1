@@ -1,53 +1,82 @@
-/* Projects */
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-.projects{
-    width:90%;
-    max-width:1200px;
-    margin:auto;
-    padding:80px 0;
-}
+<title>Projects | Kritsachai Portfolio</title>
 
-.projects h1{
-    text-align:center;
-    font-size:48px;
-    color:#8B6B4A;
-    margin-bottom:50px;
-}
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-.project-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-    gap:30px;
-}
+</head>
+<body>
 
-.project-card{
-    background:#FFFDF8;
-    border-radius:20px;
-    overflow:hidden;
-    box-shadow:0 8px 20px rgba(0,0,0,.1);
-    transition:.3s;
-}
+<nav>
 
-.project-card:hover{
-    transform:translateY(-10px);
-}
+<div class="logo">Kritsachai</div>
 
-.project-card img{
-    width:100%;
-    height:220px;
-    object-fit:cover;
-}
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="skills.html">Skills</a></li>
+<li><a href="projects.html">Projects</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
 
-.project-card h2{
-    padding:20px;
-    color:#8B6B4A;
-}
+</nav>
 
-.project-card p{
-    padding:0 20px 20px;
-}
+<section class="projects">
 
-.project-card .btn{
-    display:inline-block;
-    margin:0 20px 25px;
-}
+<h1>My Projects</h1>
+
+<div class="project-grid">
+
+<div class="project-card">
+
+<img src="images/project1.jpg" alt="Project 1">
+
+<h2>Portfolio Website</h2>
+
+<p>เว็บไซต์ Portfolio ที่พัฒนาด้วย HTML, CSS และ JavaScript</p>
+
+<a href="#" class="btn">View Project</a>
+
+</div>
+
+<div class="project-card">
+
+<img src="images/project2.jpg" alt="Project 2">
+
+<h2>Resume Design</h2>
+
+<p>ออกแบบ Resume สำหรับยื่นมหาวิทยาลัยและสมัครงาน</p>
+
+<a href="#" class="btn">View Project</a>
+
+</div>
+
+<div class="project-card">
+
+<img src="images/project3.jpg" alt="Project 3">
+
+<h2>Science Project</h2>
+
+<p>ผลงานโครงงานวิทยาศาสตร์ระดับชั้นมัธยมศึกษา</p>
+
+<a href="#" class="btn">View Project</a>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 Kritsachai Ketsuwan</p>
+
+</footer>
+
+</body>
+</html>
